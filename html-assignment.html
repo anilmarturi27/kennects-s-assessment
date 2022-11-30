@@ -1,0 +1,27 @@
+<div id="jhon">
+
+<input id="name" type="text"
+onfocus="myFunction(this.id)"/>
+ <div class = "important ">
+
+</div>
+
+</div>
+ <script>
+ function myFunction(x) {
+   // prompt("ds")
+console.log(this)
+     let y=document.getElementById('name')
+
+   let yy=document.getElementsByClassName('important')
+     // console.log(x,y,yy[0],yy.length)
+
+   for (let i=0 ; i<=yy.length;i++)
+     {
+       yy[i].className="shape"
+     }
+
+   
+ }
+
+</script>
